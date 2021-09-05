@@ -23,7 +23,7 @@ const ourBooks3 = document.getElementById("ourBooks3");
 const ourBooks4 = document.getElementById("ourBooks4");
 const ourBooks5 = document.getElementById("ourBooks5");
 
-function choosePix1() {
+function choosePix1() { //INSERT YOUR OWN IMAGES INTO THIS ARRAY FOR THE FULL EFFECT
     const newImages = new Array('bookshelf/book1.jpg', 'bookshelf/book2.jpg', 'bookshelf/book3.jpg', 'bookshelf/book4.jpg', 'bookshelf/book5.jpg', 'bookshelf/book6.jpg', 'bookshelf/book7.jpg', 'bookshelf/book8.jpg',
         'bookshelf/book9.jpg', 'bookshelf/book10.jpg', 'bookshelf/book11.jpg', 'bookshelf/book12.jpg', 'bookshelf/book13.jpg', 'bookshelf/book14.jpg', 'bookshelf/book15.jpg', 'bookshelf/book16.jpg');
 
@@ -42,7 +42,7 @@ function choosePix1() {
     myStart;
 }
 
-function choosePix2() {
+function choosePix2() {  //INSERT YOUR OWN IMAGES INTO THIS ARRAY FOR THE FULL EFFECT
     const newImages = new Array('bookshelf/book1.jpg', 'bookshelf/book2.jpg', 'bookshelf/book3.jpg', 'bookshelf/book4.jpg', 'bookshelf/book5.jpg', 'bookshelf/book6.jpg', 'bookshelf/book7.jpg', 'bookshelf/book8.jpg',
         'bookshelf/book9.jpg', 'bookshelf/book10.jpg', 'bookshelf/book11.jpg', 'bookshelf/book12.jpg', 'bookshelf/book13.jpg', 'bookshelf/book14.jpg', 'bookshelf/book15.jpg', 'bookshelf/book16.jpg');
 
@@ -61,7 +61,7 @@ function choosePix2() {
 
 }
 
-function choosePix3() {
+function choosePix3() {  //INSERT YOUR OWN IMAGES INTO THIS ARRAY FOR THE FULL EFFECT
     const newImages = new Array('bookshelf/book1.jpg', 'bookshelf/book2.jpg', 'bookshelf/book3.jpg', 'bookshelf/book4.jpg', 'bookshelf/book5.jpg', 'bookshelf/book6.jpg', 'bookshelf/book7.jpg', 'bookshelf/book8.jpg',
         'bookshelf/book9.jpg', 'bookshelf/book10.jpg', 'bookshelf/book11.jpg', 'bookshelf/book12.jpg', 'bookshelf/book13.jpg', 'bookshelf/book14.jpg', 'bookshelf/book15.jpg', 'bookshelf/book16.jpg');
 
@@ -80,7 +80,7 @@ function choosePix3() {
     myStart;
 }
 
-function choosePix4() {
+function choosePix4() {  //INSERT YOUR OWN IMAGES INTO THIS ARRAY FOR THE FULL EFFECT
     const newImages = new Array('bookshelf/book1.jpg', 'bookshelf/book2.jpg', 'bookshelf/book3.jpg', 'bookshelf/book4.jpg', 'bookshelf/book5.jpg', 'bookshelf/book6.jpg', 'bookshelf/book7.jpg', 'bookshelf/book8.jpg',
         'bookshelf/book9.jpg', 'bookshelf/book10.jpg', 'bookshelf/book11.jpg', 'bookshelf/book12.jpg', 'bookshelf/book13.jpg', 'bookshelf/book14.jpg', 'bookshelf/book15.jpg', 'bookshelf/book16.jpg');
 
@@ -99,7 +99,7 @@ function choosePix4() {
     myStart;
 }
 
-function choosePix5() {
+function choosePix5() {  //INSERT YOUR OWN IMAGES INTO THIS ARRAY FOR THE FULL EFFECT
     const newImages = new Array('bookshelf/book1.jpg', 'bookshelf/book2.jpg', 'bookshelf/book3.jpg', 'bookshelf/book4.jpg', 'bookshelf/book5.jpg', 'bookshelf/book6.jpg', 'bookshelf/book7.jpg', 'bookshelf/book8.jpg',
         'bookshelf/book9.jpg', 'bookshelf/book10.jpg', 'bookshelf/book11.jpg', 'bookshelf/book12.jpg', 'bookshelf/book13.jpg', 'bookshelf/book14.jpg', 'bookshelf/book15.jpg', 'bookshelf/book16.jpg');
 
