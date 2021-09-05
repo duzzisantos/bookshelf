@@ -1,5 +1,3 @@
-//THE LOCATIONS OF THE IMAGES
-
 // DRAG START FOR FIRST STAGE
 
 function myStart(event) {
@@ -121,7 +119,7 @@ function choosePix5() {  //INSERT YOUR OWN IMAGES INTO THIS ARRAY FOR THE FULL E
 //THE DIV REPLACEMENT LOGIC ENDS HERE
 
 
-//OTHER DRAG EVENTS BEGIN HERE
+//OTHER DRAGSTART EVENTS ARE HERE
 
 function startBorrow(event) {
     event.dataTransfer.setData('text', event.target.id);
@@ -131,7 +129,7 @@ function basketStart(event) {
     event.dataTransfer.setData('text', event.target.id);
 }
 
-// DRAG OVER EVENTS
+// DRAGOVER EVENTS
 
 function myOver(event) {
     event.preventDefault();
