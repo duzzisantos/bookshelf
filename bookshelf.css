@@ -1,0 +1,199 @@
+* {
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    height: 630px;
+    width: 99%;
+    background: whitesmoke;
+    background-image: linear-gradient(to right, whitesmoke, white, whitesmoke);
+    overflow: hidden;
+}
+
+#bookStore {
+    height: 600px;
+    width: 250px;
+    display: inline-block;
+    overflow: hidden;
+    /* overflow-y: scroll; */
+    margin-top: 10px;
+    background: white;
+    border-top: 10px solid rgba(85, 107, 47, 0.747);
+    margin: 8px;
+}
+
+/* #bookStore::-webkit-scrollbar-thumb {
+    background-color: silver;
+}
+
+#bookStore::-webkit-scrollbar {
+    width: 12px;
+   
+}
+
+#bookStore::-webkit-scrollbar-track {
+    background: white;
+  
+} */
+
+#ourBooks1, #ourBooks2, #ourBooks3, #ourBooks4, #ourBooks5 {
+    height: 120px;
+    width: 250px;
+    border: 1px solid whitesmoke;
+    display: block;
+    overflow: hidden;
+}
+
+#mybookImage {
+    height: 120px;
+    width: 250px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-left: auto;
+    background-size: contain;
+    background-position: center;
+}
+
+img{
+    height: 120px;
+    width: 80px;
+    background-repeat: no-repeat;
+    margin-left: calc(170px / 2);
+}
+
+#bookImage1 {
+    height: 120px;
+    width: 250px;
+    background-image: url('https://i.pinimg.com/474x/f7/c8/12/f7c812c9b0296cd9f119e33a06d9a256.jpg');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-left: auto;
+    background-size: contain;
+    background-position: center;
+}
+
+#bookImage2 {
+    height: 120px;
+    width: 250px;
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/I/41gr3r3FSWL._SX342_SY445_QL70_ML2_.jpg');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-left: auto;
+    background-size: contain;
+    background-position: center;
+}
+
+#bookImage3 {
+    height: 120px;
+    width: 250px;
+    background-image: url('https://d1csarkz8obe9u.cloudfront.net/posterpreviews/contemporary-fiction-night-time-book-cover-design-template-1be47835c3058eb42211574e0c4ed8bf_screen.jpg?ts=1594616847');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-left: auto;
+    background-size: contain;
+    background-position: center;
+}
+
+#bookImage4 {
+    height: 120px;
+    width: 250px;
+    background-image: url('https://d1csarkz8obe9u.cloudfront.net/posterpreviews/ocean-themed-mystery-book-cover-design-template-106e0bde0f3b02fcf67355c98fcaebcc_screen.jpg?ts=1588747771');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-left: auto;
+    background-size: contain;
+    background-position: center;
+}
+
+#bookImage5 {
+    height: 120px;
+    width: 250px;
+    background-image: url('https://thebookcoverdesigner.com/wp-content/uploads/2017/02/deep-water.jpg');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-left: auto;
+    background-size: contain;
+    background-position: center;
+}
+
+#bookShelf {
+    height: 590px;
+    width: 700px;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 10px;
+    background-color: rgba(244, 165, 96, 0.76);
+    border-top: 20px solid darkorange;
+    border-right: 20px solid rgb(209, 96, 14);
+    border-left: 20px solid rgb(209, 96, 14);
+    border-bottom: 16px solid darkorange;
+}
+
+#shelf {
+    height: 195px;
+    width: 171.9px;
+    background-color: saddlebrown;
+    background-image: linear-gradient(to right, saddlebrown, rgba(221, 99, 11, 0.459), rgba(139, 69, 19, 0.281));
+    overflow: hidden;
+    display: inline-block;
+}
+
+#shelf1, #shelf2, #shelf3, #shelf4, #shelf5, #shelf6, #shelf7, #shelf8, #shelf9, #shelf10, #shelf11, #shelf12 {
+    height: 145px;
+    width: 160px;
+    margin-left: -30px;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 7.5px;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+#borrow {
+    height: 600px;
+    width: calc(1330px - 700px - 310px);
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 10px;
+    background: white;
+    border-top: 10px solid darkolivegreen;
+    margin: 8px;
+    font-family: "Rubik", sans-serif;
+}
+
+#basket {
+    height: 95px;
+    width: calc(1330px - 700px - 310px);
+    border: 1px solid whitesmoke;
+}
+
+#basket1, #basket2, #basket3, #basket4 {
+    height: 90px;
+    margin-top: 2px;
+    width: 300px;
+    margin-left: -20px;
+    overflow: hidden;
+    display: block;
+}
+
+#confirm {
+    margin-top: 40px;
+    padding: 15px;
+    width: 100px;
+    margin-left: 110px;
+    color: white;
+    background-color: darkolivegreen;
+    border: none;
+    font-size: 15px;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+h2 {
+    color: darkolivegreen;
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+    font-size: 24px;
+}

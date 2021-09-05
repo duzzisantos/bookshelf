@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bookshelf.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <title>Interactive Bookshelf</title>
+</head>
+
+<body>
+    <div id="bookStore">
+        <div id="ourBooks1" draggable="true" ondragover="myOver(event)" ondrop="myDrop(event)">
+            <div id="bookImage1" ondragstart="myStart(event)"  draggable="true" class="image"></div>
+        </div>
+        <div id="ourBooks2" draggable="true" ondragover="myOver(event)" ondrop="myDrop(event)">
+            <div id="bookImage2" ondragstart="myStart(event)"  draggable="true" class="image"></div>
+        </div>
+        <div id="ourBooks3" draggable="true" ondragover="myOver(event)" ondrop="myDrop(event)">
+            <div id="bookImage3" ondragstart="myStart(event)"  draggable="true" class="image"></div>
+        </div>
+        <div id="ourBooks4" draggable="true" ondragover="myOver(event)" ondrop="myDrop(event)">
+            <div id="bookImage4" ondragstart="myStart(event)"  draggable="true" class="image"></div>
+        </div>
+        <div id="ourBooks5" draggable="true" ondragover="myOver(event)" ondrop="myDrop(event)">
+            <div id="bookImage5" ondragstart="myStart(event)"  draggable="true" class="image"></div>
+        </div>
+      
+
+    </div>
+
+    <div id="bookShelf">
+        <div id="shelf" draggable="true" ondragover="overBorrow(event)" ondrop="dropBorrow(event)">
+            <div id="shelf1" ondragstart="startBorrow(event)" draggable="true"></div>
+        </div>
+        <div id="shelf" draggable="true" ondragover="overBorrow(event)" ondrop="dropBorrow(event)">
+            <div id="shelf2" ondragstart="startBorrow(event)" draggable="true"></div>
+        </div>
+        <div id="shelf" draggable="true" ondragover="overBorrow(event)" ondrop="dropBorrow(event)">
+            <div id="shelf3" ondragstart="startBorrow(event)" draggable="true"></div>
+        </div>
+        <div id="shelf" draggable="true" ondragover="overBorrow(event)" ondrop="dropBorrow(event)">
+            <div id="shelf4" ondragstart="startBorrow(event)" draggable="true"></div>
+        </div>
+        <div id="shelf" draggable="true" ondragover="overBorrow(event)" ondrop="dropBorrow(event)">
+            <div id="shelf5" ondragstart="startBorrow(event)" draggable="true"></div>
+        </div>
+        <div id="shelf" draggable="true" ondragover="overBorrow(event)" ondrop="dropBorrow(event)">
+            <div id="shelf6" ondragstart="startBorrow(event)" draggable="true"></div>
+        </div>
+        <div id="shelf" draggable="true" ondragover="overBorrow(event)" ondrop="dropBorrow(event)">
+            <div id="shelf7" ondragstart="startBorrow(event)" draggable="true"></div>
+        </div>
+        <div id="shelf" draggable="true" ondragover="overBorrow(event)" ondrop="dropBorrow(event)">
+            <div id="shelf8" ondragstart="startBorrow(event)" draggable="true"></div>
+        </div>
+        <div id="shelf" draggable="true" ondragover="overBorrow(event)" ondrop="dropBorrow(event)">
+            <div id="shelf9" ondragstart="startBorrow(event)" draggable="true"></div>
+        </div>
+        <div id="shelf" draggable="true" ondragover="overBorrow(event)" ondrop="dropBorrow(event)">
+            <div id="shelf10" ondragstart="startBorrow(event)" draggable="true"></div>
+        </div>
+        <div id="shelf" draggable="true" ondragover="overBorrow(event)" ondrop="dropBorrow(event)">
+            <div id="shelf11" ondragstart="startBorrow(event)" draggable="true"></div>
+        </div>
+        <div id="shelf" draggable="true" ondragover="overBorrow(event)" ondrop="dropBorrow(event)">
+            <div id="shelf12" ondragstart="startBorrow(event)" draggable="true"></div>
+        </div>
+    </div>
+
+    <div id="borrow">
+        <h2>Drag at least four books from the shelf</h2>
+        <div id="basket" ondragover="basketOver(event)" ondrop="basketDrop(event)" draggable="true">
+            <div id="basket1" ondragstart="basketStart(event)" draggable="true"></div>
+        </div>
+        <div id="basket" ondragover="basketOver(event)" ondrop="basketDrop(event)" draggable="true">
+            <div id="basket2" ondragstart="basketStart(event)" draggable="true"></div>
+        </div>
+        <div id="basket" ondragover="basketOver(event)" ondrop="basketDrop(event)" draggable="true">
+            <div id="basket3" ondragstart="basketStart(event)" draggable="true"></div>
+        </div>
+        <div id="basket" ondragover="basketOver(event)" ondrop="basketDrop(event)" draggable="true">
+            <div id="basket4" ondragstart="basketStart(event)" draggable="true"></div>
+        </div>
+        <button id="confirm">Confirm</button>
+    </div>
+
+</body>
+<script src="bookshelf.js"></script>
+
+</html>
