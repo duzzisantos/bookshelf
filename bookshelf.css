@@ -44,7 +44,7 @@ body {
     overflow: hidden;
 }
 
-#mybookImage {
+#mybookImage1, #mybookImage2, #mybookImage3, #mybookImage4, #mybookImage5{
     height: 120px;
     width: 250px;
     background-repeat: no-repeat;
@@ -52,6 +52,7 @@ body {
     margin-left: auto;
     background-size: contain;
     background-position: center;
+    display: blockk;
 }
 
 img{
@@ -59,6 +60,18 @@ img{
     width: 80px;
     background-repeat: no-repeat;
     margin-left: calc(170px / 2);
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+#basket1 img, #basket2 img{
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    width: 80px;
+    margin-left: 34%;
+    padding-top: 0px;
+    overflow: hidden;
 }
 
 #bookImage1 {
@@ -117,34 +130,35 @@ img{
 }
 
 #bookShelf {
-    height: 590px;
+    height: 600px;
     width: 700px;
     display: inline-block;
     overflow: hidden;
     margin-top: 10px;
-    background-color: rgba(244, 165, 96, 0.76);
-    border-top: 20px solid darkorange;
+    background-color: rgb(184, 87, 18);
+    border-top: 20px solid rgb(173, 76, 6);
     border-right: 20px solid rgb(209, 96, 14);
     border-left: 20px solid rgb(209, 96, 14);
-    border-bottom: 16px solid darkorange;
+    border-bottom: 5px solid rgb(184, 87, 18);
 }
 
 #shelf {
-    height: 195px;
+    height: 185px;
     width: 171.9px;
     background-color: saddlebrown;
     background-image: linear-gradient(to right, saddlebrown, rgba(221, 99, 11, 0.459), rgba(139, 69, 19, 0.281));
     overflow: hidden;
     display: inline-block;
+    border-bottom: 10px solid saddlebrown;
 }
 
 #shelf1, #shelf2, #shelf3, #shelf4, #shelf5, #shelf6, #shelf7, #shelf8, #shelf9, #shelf10, #shelf11, #shelf12 {
-    height: 145px;
-    width: 160px;
-    margin-left: -30px;
+    height: 120px;
+    width: 250px;
+    margin-left: -40px;
     overflow: hidden;
     display: inline-block;
-    margin-top: 7.5px;
+    margin-top: -5px;
     background-position: center;
     align-items: center;
     justify-content: center;
@@ -164,18 +178,21 @@ img{
 }
 
 #basket {
-    height: 95px;
+    height: 200px;
     width: calc(1330px - 700px - 310px);
     border: 1px solid whitesmoke;
 }
 
-#basket1, #basket2, #basket3, #basket4 {
-    height: 90px;
-    margin-top: 2px;
-    width: 300px;
-    margin-left: -20px;
+#basket1, #basket2{
+    height: 200px;
+    margin-top: 0px;
+    width: 240px;
+    margin-left: 70px;
     overflow: hidden;
     display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
 }
 
 #confirm {
@@ -191,9 +208,108 @@ img{
     font-weight: 600;
 }
 
-h2 {
+#printBook{
+    height: 560px;
+    width: 300px;
+    border: none;
+    overflow: hidden;
+}
+
+#printParent{
+    height: 490px;
+    width: 290px;
+    margin-top: 10px;
+    overflow: hidden;
+    border: 1px solid aliceblue;
+}
+
+#printBtn{
+    margin-top: 15px;
+    background-color: darkolivegreen;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    padding: 5px;
+    margin-left: 0px;
+}
+
+#printBtn:hover{
+    cursor: pointer;
+}
+
+#firstWrap{
+    width: 290px;
+    height: 200px;
+    background-color: aliceblue;
+}
+
+#secondWrap{
+    width: 290px;
+    height: 200px;
+    background-color: whitesmoke;
+}
+
+#myDetails, #myDetails2{
+    width: 110px;
+    height: 150px;
+    display: inline-block;
+    margin-top: 0px;
+    overflow: hidden;
+}
+
+#myh5, #myh52{
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
     color: darkolivegreen;
-    font-family: "Rubik", sans-serif;
+}
+
+#myPara, #myPara2{
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    color: darkolivegreen;
+}
+
+#firstPrint{
+    width: 240px;
+    height: 200px;
+    margin-left: -80px;
+    overflow: hidden;
+    margin-top: 0px;
+    display: inline-block;
+}
+
+#secondPrint{
+    width: 240px;
+    height: 200px;
+    margin-left: -80px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#printParagraph, #orderNumber{
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+    color: darkolivegreen;
+    font-weight: 700;
     text-align: center;
-    font-size: 24px;
+}
+
+#closeBtn{
+    color: darkolivegreen;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 90%;
+    background-color: white;
+    border: none;
+}
+
+#closeBtn:hover{
+    cursor: pointer;
+}
+
+a{
+    color: white;
+    text-decoration-line: none;
 }
